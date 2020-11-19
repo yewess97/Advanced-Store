@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <title>Login | Advanced Store</title>
+
+    <!-----foundation css----->
+    <link rel="stylesheet" href="style/foundation.css">
+    <!-----font awesome----->
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <!-----animation css----->
+    <link rel="stylesheet" href="assets/animation/animate.css">
+    <!-----style clothes shop css----->
+    <link rel="stylesheet" href="style/style-clothes-shop.css">
+</head>
+
+<body>
+
+<div class="row expanded">
+    <div class="large-12 medium-12 small-12">
+
+        <!-----Nav Bar----->
+        <nav data-sticky-container>
+            <div id="top-bar" class="top-bar" data-sticky data-options="marginTop:0;" style="width:100%">
+                <div class="row clearfix">
+                    <div class="large-2 medium-5 small-12 columns">
+                        <div class="top-bar-left">
+                            <a href="shop-main-page.html" target="_blank"><img src="style/images/advanced-store-logo.png" alt="advanced store logo" title="Advanced Store" id="small_logo"></a>
+                        </div>
+                    </div>
+                    <div class="large-6 medium-12 small-12 columns">
+                        <div class="top-bar-right">
+                            <ul class="dropdown menu">
+                                <li><a href="shop-main-page.html" target="_blank">Home</a></li>
+                                <li><a href="shop-services-page.html" target="_blank">Services</a></li>
+                                <li><a href="shop-about-page.html" target="_blank">About</a></li>
+                                <li><a href="shop-contactUs-page.html" target="_blank">Contact Us</a></li>
+                                <li><a href="#login">Login</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-----End Nav Bar----->
+    </div>
+</div>
+
+
+
+
+<!-----Section Login----->
+<section id="login">
+    <div class="row">
+        <div class="large-12 medium-12 small-12 columns login">
+
+            <div class="login-content">
+
+                <!-----Background Video----->
+                <div class="video-background">
+                    <video src="style/images/advanced-store.mp4" type="video/mp4" autoplay loop muted></video>
+                </div>
+                <div class="header-overlay"></div>
+                <!-----End Background Video----->
+
+                <!-----MAIN Content----->
+                <div class="main_content" style="z-index: 2">
+
+                    <!-----Login Form----->
+                    <form class="login-form" method="post" action="shop-main-page.html">
+
+                        <!-----Form Text----->
+                        <span class="login-form-title wow zoomInDown" data-wow-duration="1s">Welcome</span>
+                        <!-----End Form Text----->
+
+                        <!-----Form Input----->
+                        <div class="form-input">
+
+                            <label class="form-col-left">
+                                <label class="input-name">First name</label>
+                                <input class="login-input" type="text" name="fname" maxlength="50" required>
+                            </label>
+
+                            <label class="form-col-right">
+                                <label class="input-name">Last name</label>
+                                <input class="login-input" type="text" name="lname" maxlength="50" required>
+                            </label>
+
+                            <label class="form-col-left">
+                                <label class="input-name">Email</label>
+                                <input class="login-input" type="email" name="email" maxlength="50" required>
+                            </label>
+
+                            <label class="form-col-right">
+                                <label class="input-name">Mobile number</label>
+                                <input class="login-input" type="tel" name="mnumber" placeholder="01011836243" pattern="[0-9]{3}[0-9]{4}[0-9]{4}" maxlength="11" required>
+                            </label>
+
+                            <label class="form-col-left">
+                                <label class="input-name">Password</label>
+                                <input class="login-input" type="password" name="pass" minlength="8" maxlength="12" required>
+                            </label>
+
+                            <label class="form-col-right">
+                                <label class="input-name">Gender</label>
+
+                                <div class="male-female" style="margin-top: 15px">
+                                    <label class="radio-container" style="margin-right: 45px">Male
+                                        <input class="radio" type="radio" name="gender" required>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    <label class="radio-container">Female
+                                        <input class="radio" type="radio" name="gender" required>
+                                        <span class="checkmark"></span>
+                                    </label>
+                                </div>
+
+                            </label>
+
+                        </div>
+                        <!-----End Form Input----->
+
+                        <!-----Form Checkbox----->
+                        <div class="checkbox">
+                            <label class="accept">I Accept all terms and conditions
+                                <input class="accept" type="radio" name="I accept" required>
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <!-----End Form Checkbox----->
+
+                        <!-----Form Button----->
+                        <div class="container-form-btn">
+                            <div class="wrap-form-btn">
+                                <div class="form-bgbtn"></div>
+                                <button class="form-btn">Submit</button>
+                            </div>
+                        </div>
+                        <!-----End Form Button----->
+
+                    </form>
+                    <!-----End Login Form----->
+
+                </div>
+                <!-----End MAIN Content----->
+
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-----End Section Login----->
+
+
+
+
+<!-----Footer----->
+<footer>
+    <div class="row bottom_row">
+
+        <!-----Bottom Right Section----->
+        <div class="large-8 medium-8 small-8 columns bottom-footer">
+
+            <!-----Footer Menu----->
+            <div class="large-12 medium-12 small-12 columns bottom-footer">
+                <div class="bottom_menu">
+                    <ul class="menu">
+                        <li><a style="color:rgb(250, 144, 113);" href="#">Home</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-----End Footer Menu----->
+
+            <!-----Bottom Description----->
+            <div class="border_bottom"></div>
+            <div class="border_left"></div>
+            <div class="bottom_description">
+                <div class="large-4 medium-4 small-4 columns bottom_desc bottom-footer">
+                    <h4>Work hours:</h4>
+                    <p>Continued 24 hours</p>
+                    <p>Your inquiries will be answered within a few hours</p>
+                </div>
+                <div class="large-4 medium-4 small-4 columns bottom_desc bottom-footer">
+                    <h4>Our Location:</h4>
+                    <p>7 Al-Qasr Al-Ainy Street in Al-Sayeda Zeinab District - Cairo</p>
+                </div>
+                <div class="large-4 medium-4 small-4 columns bottom_desc bottom-footer">
+                    <div class="large-12 medium-12 small-12 columns contact_info bottom-footer">
+                        <h4>Phone number:</h4>
+                        <p>+20 10 1183 6243</p>
+                    </div>
+                    <div class="large-12 medium-12 small-12 columns bottom-footer">
+                        <h4>Email:</h4>
+                        <p>support@advancedshop.com</p>
+                    </div>
+                </div>
+            </div>
+            <!-----End Bottom Description----->
+
+        </div>
+        <!-----End Bottom Right Section----->
+
+        <!-----Bottom Left Section----->
+        <div class="bottom_left_section">
+
+            <!-----Bottom Left About Us----->
+            <div class="large-4 medium-4 small-4 columns bottom-footer">
+                <div class="large-12 medium-12 small-12">
+                    <img id="bottom-logo" src="style/images/advanced-store-logo.png">
+                </div>
+
+                <div class="large-12 medium-12 small-12 bottom_desc_left">
+                    <h4>Our Store:</h4>
+                    <p>
+                        The Advanced Store has been established for a specific purpose, which is the ease of shopping in different countries.
+                        It is a link between many countries in the purchase process. We thought that we would make it easier for customers to offer the cheapest prices and offer them great offers.
+                        We offer the best products in different tastes so that we are in line with customers.
+                    </p>
+                </div>
+            </div>
+            <!-----End Bottom Left About Us----->
+
+            <!-----Bottom Copyrights----->
+            <div class="rights">
+                <div class="large-12 medium-12 small-12 columns bottom-footer">
+                    <p><span id="copyright">&copy;</span> All Copyrights are reserved to the Advanced Store 2020</p>
+                </div>
+            </div>
+            <!-----End Bottom Copyrights----->
+
+            <!-----Bottom Social Links----->
+            <div class="bottom_social">
+                <div class="large-12 medium-12 small-12 columns bottom-footer">
+                    <div class="large-12 medium-12 small-12 columns clearfix bottom-footer">
+                        <div class="large-1 medium-1 small-1 columns float-left bottom_social_urls bottom-footer">
+                            <a href="#"><i class="fab fa-facebook-f float-left social_links_icon" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="large-1 medium-1 small-1 columns float-left bottom_social_urls bottom-footer">
+                            <a href="#"><i class="fab fa-twitter float-left social_links_icon" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="large-1 medium-1 small-1 columns float-left bottom_social_urls bottom-footer">
+                            <a href="#"><i class="fab fa-instagram float-left social_links_icon" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="large-1 medium-1 small-1 columns float-left bottom_social_urls bottom-footer">
+                            <a href="#"><i class="fab fa-google-plus-g float-left social_links_icon" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-----End Bottom Social Links----->
+
+            <!-----Footer IMAGE----->
+            <div class="footer_image"></div>
+            <!-----End Footer IMAGE----->
+
+        </div>
+        <!-----End Bottom Left Section----->
+
+        <div class="right_footer_bottom"></div>
+        <div class="left_footer_bottom"></div>
+    </div>
+</footer>
+<!-----End Footer----->
+
+</body>
+</html>
+
+
+
+<!-----Scripts----->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/vendor/foundation.js"></script>
+<script src="js/app.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    wow = new WOW(
+        {
+            boxClass: 'wow',
+            animateClass: 'animated',
+            offset: 300,
+            mobile: true,
+            live: true
+        }
+    )
+    wow.init();
+</script>
+<!-----End Scripts----->

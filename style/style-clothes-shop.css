@@ -1,0 +1,1471 @@
+@font-face {
+    font-family: 'Anton';
+    src: url(https://fonts.gstatic.com/s/anton/v11/1Ptgg87LROyAm3Kz-C8.woff2);
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v20/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtM.woff2);
+}
+
+@font-face {
+    font-family: 'Caladea';
+    src: url(https://fonts.gstatic.com/s/caladea/v1/kJEzBugZ7AAjhybUvRh9-g.woff2);
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmMw.woff2);
+}
+
+@font-face {
+    font-family: 'Playfair Display SC';
+    src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v9/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMEA.woff2);
+}
+
+@font-face {
+    font-family: 'Spirax';
+    src: url(https://fonts.gstatic.com/s/spirax/v8/buE3poKgYNLy0F3sWUFs.woff2);
+}
+
+@font-face {
+    font-family: 'Vidaloka';
+    src: url(https://fonts.gstatic.com/s/vidaloka/v12/7cHrv4c3ipenMKlEavs7wH8.woff2);
+}
+
+@font-face {
+    font-family: 'Rozha One';
+    src: url(https://fonts.gstatic.com/s/rozhaone/v7/AlZy_zVFtYP12Zncg2kRcn35.woff2);
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url(https://fonts.gstatic.com/s/cardo/v11/wlp_gwjKBV1pqhv43IE.woff2);
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url(https://fonts.gstatic.com/s/dosis/v17/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xME.woff2);
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(https://fonts.gstatic.com/s/oswald/v31/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUZiZQ.woff2);
+}
+
+@font-face {
+    font-family: 'Concert One';
+    src: url(https://fonts.gstatic.com/s/concertone/v10/VEM1Ro9xs5PjtzCu-srDqSTijP4.woff2);
+}
+
+@font-face {
+    font-family: 'Volkhov';
+    src: url(https://fonts.gstatic.com/s/volkhov/v11/SlGQmQieoJcKemNecTUEhQ.woff2);
+}
+
+@font-face {
+    font-family: 'Philosopher';
+    src: url(https://fonts.gstatic.com/s/philosopher/v12/vEFV2_5QCwIS4_Dhez5jcWBuT00.woff2);
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2);
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(https://fonts.gstatic.com/s/raleway/v14/1Ptrg8zYS_SKggPNwN4rWqZPAA.woff2);
+}
+
+@font-face {
+    font-family: 'Acme';
+    src: url(https://fonts.gstatic.com/s/acme/v9/RrQfboBx-C5_XxrBbg.woff2);
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(https://fonts.gstatic.com/s/bebasneue/v1/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2);
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2);
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrJJfecg.woff2);
+}
+
+/**********Body**********/
+body {
+    color: #555555;
+    font-size: 16px;
+    direction: ltr;
+    background-color: #f0f3ef;
+    background-size: cover;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+}
+
+/**********End Body**********/
+
+
+
+
+/**********Header nav bar**********/
+.top-bar {
+    background-color: rgba(38, 3, 3, 0.95);
+    padding: 0;
+    height: auto;
+    border-radius: 1px;
+}
+
+.top-bar-right {
+    margin-right: -30px;
+}
+
+.top-bar ul {
+    background-color: transparent;
+}
+
+.top-bar li {
+    font-family: 'Vidaloka';
+    font-weight: bolder;
+    font-size: 18px;
+    padding-left: 5px;
+    height: 65px;
+    padding-top: 6px;
+}
+
+.top-bar li a {
+    color: rgb(246, 118, 79);
+    transition: color 0.7s, border 0.7s;
+    -webkit-transition: color 0.7s, border 0.7s;
+    -o-transition: color 0.7s, border 0.7s;
+    -moz-transition: color 0.7s, border 0.7s;
+}
+
+.top-bar li a:hover,
+.top-bar li a:active {
+    color: #f1f152;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background-color: rgba(236, 236, 132, 0.1);
+}
+
+#small_logo {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+#small_logo:hover {
+    transform: scale(1.1);
+    border-radius: 10%;
+    transition: 0.5s;
+}
+
+/**********End Header nav bar**********/
+
+
+
+
+
+/**********Footer**********/
+footer {
+    background-color: #232323;
+    overflow: hidden;
+}
+
+.bottom_row {
+    position: relative;
+    width: 100%;
+    direction: ltr;
+}
+
+.bottom-footer {
+    float: right;
+}
+
+/**********Footer Menu**********/
+.bottom_menu {
+    font-family: 'Concert One';
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 70px;
+}
+
+.bottom_menu a {
+    margin-left: 25px;
+    color: #fff;
+}
+
+/**********End Footer Menu**********/
+
+/**********Bottom Description**********/
+.border_bottom {
+    position: absolute;
+    left: -200%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+    width: 1000%;
+}
+
+.border_left {
+    position: absolute;
+    height: 358px;
+    border-left: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.bottom_description {
+    padding-left: 70px;
+}
+
+.bottom_desc {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.bottom_desc h4 {
+    font-family: 'Volkhov';
+    font-size: 18px;
+    color: #fff;
+}
+
+.bottom_desc p {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+.contact_info {
+    padding-bottom: 40px;
+}
+
+/**********End Bottom Description**********/
+
+/*********Bottom Left About Us**********/
+#bottom-logo {
+    width: 70%;
+    float: left;
+    padding-top: 20px;
+}
+
+.bottom_desc_left {
+    padding-top: 110px;
+}
+
+.bottom_desc_left h4 {
+    font-family: 'Volkhov';
+    font-size: 18px;
+    color: #fff;
+}
+
+.bottom_desc_left p {
+    font-size: 16px;
+    text-align: justify;
+    padding-right: 10px;
+    color: rgba(255, 255, 255, 0.64);
+}
+
+/*********End Bottom Left About Us**********/
+
+/*********Bottom Copyrights**********/
+.rights {
+    width: 65.4%;
+    float: right;
+    height: 40px;
+    background-color: rgba(14, 13, 13, 0.62);
+    text-align: center;
+}
+
+.rights p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 45px;
+}
+
+#copyright {
+    font-size: 20px;
+}
+
+/*********End Bottom Copyrights**********/
+
+/*********Bottom Social Links**********/
+.bottom_social {
+    width: 34.6%;
+    float: left;
+    height: 40px;
+    background-color: rgba(253, 81, 1, 0.93);
+}
+
+.bottom_social_urls {
+    padding-top: 10px;
+    float: left !important;
+    padding-right: 70px;
+}
+
+.bottom_social_urls i {
+    font-size: 17px;
+    color: white;
+}
+
+/*********End Bottom Social Links**********/
+
+/*********Bottom Social Links**********/
+
+/*********Footer IMAGE**********/
+.footer_image {
+    background-image: url("images/footer-clothes-image.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    height: 360px;
+    position: absolute;
+    left: -425px;
+    opacity: 0.05;
+}
+
+/*********End Footer IMAGE**********/
+
+/*********Right & Left Footer Bottom**********/
+.right_footer_bottom {
+    width: 1000%;
+    float: right;
+    height: 40px;
+    background-color: rgba(14, 13, 13, 0.62);
+    position: absolute;
+    bottom: 0;
+    right: -1000%;
+}
+
+.left_footer_bottom {
+    width: 1000%;
+    float: left;
+    height: 40px;
+    background-color: rgba(253, 81, 1, 0.93);
+    position: absolute;
+    bottom: 0;
+    left: -1000%;
+}
+
+/*********End Right & Left Footer Bottom**********/
+
+/**********End Footer**********/
+
+
+
+
+
+
+
+
+
+/**********************Start Of Main Page**********************/
+
+/**********Header**********/
+#index-shop {
+    background: linear-gradient(rgba(21, 19, 2, 0.76), rgba(0, 0, 0, 0.8)), url("images/header-background.jpg") fixed center;
+    background-size: cover;
+    height: 160vh;
+    overflow: hidden;
+}
+
+/**********Header Big Logo**********/
+#big_logo {
+    background-size: contain;
+    width: 220px;
+    height: 220px;
+    border: 6px solid #555555;
+    border-radius: 50%;
+    background-color: currentColor;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#big_logo:hover {
+    transform: scale(1.1);
+    border-radius: 45%;
+    transition: 0.5s;
+}
+
+/**********End Header Big Logo**********/
+
+/**********Header Description**********/
+.advanced {
+    text-align: center;
+    margin-right: 125px;
+}
+
+.advanced h2 {
+    font-family: 'Spirax';
+    padding-top: 60px;
+    color: rgba(247, 255, 65, 1.0);
+    font-size: 5.6vw;
+    font-weight: 1000;
+    text-shadow: 4px 6px 6px rgba(198, 154, 13, 0.82);
+    text-align: center;
+    width: 80%;
+    line-height: 1.05em;
+    letter-spacing: .09rem;
+}
+
+.advanced p {
+    display: block;
+    line-height: 1.5em;
+    letter-spacing: .05rem;
+    font-family: 'Rozha One';
+    padding-top: 20px;
+    width: 80%;
+    font-size: 24.2px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1.0);
+    text-shadow: 1px 2px 4px rgba(202, 246, 184, 0.83);
+    margin: 0;
+}
+
+/**********End Header Description**********/
+
+/**********Header Button**********/
+.footer-cover {
+    display: block;
+    margin-top: 90px;
+    width: 70%;
+}
+
+.shop-button {
+    display: inline-block;
+    outline: none;
+    border-radius: 7px;
+    background-color: rgb(198, 2, 2);
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 56.628px;
+    margin: 4px 2px;
+    padding: 0 1.8em;
+    max-width: 360px;
+}
+
+.shop-button a {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Cardo';
+    font-size: 19.8px;
+    font-weight: 600;
+}
+
+.shop-button:hover {
+    background-color: #cc4b37;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+.shop-button:active {
+    background-color: #cc4b37;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**********End Header Button**********/
+
+/**********End Header**********/
+
+
+
+
+/**********Section Products**********/
+.product {
+    background: url("images/fashion-background.png") fixed center, no-repeat, #eceaea;
+    background-size: cover;
+    padding: 120px;
+}
+
+.products_details {
+    padding: 0;
+    margin: 0;
+}
+
+/**********Clothes Products**********/
+.clothes-products {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+}
+
+.name-price {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.tshirt {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 4 + 0px);
+    padding: 10px;
+    margin: 0;
+}
+
+.tshirt img {
+    cursor: pointer;
+}
+
+.tshirt p {
+    font-family: 'Philosopher';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0.5rem;
+}
+
+span {
+    font-size: 17px;
+}
+
+.tshirt a {
+    display: inline-block;
+    line-height: 1.5;
+    font: 20px "Times New Roman";
+    color: #ffffff;
+    background-color: #000000;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    margin-top: 10px;
+    margin-bottom: 90px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.tshirt a:hover {
+    background-color: #418b0c;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+
+/**********End Clothes Products**********/
+
+/**********End Section Products**********/
+
+
+
+
+/**********Section FAQ**********/
+.faq {
+    background: url("images/technology-background5.jpg") fixed center, no-repeat;
+    background-size: cover;
+    padding: 60px 0 100px;
+    min-height: 350px;
+}
+
+/**********FAQ Content**********/
+.faq-content {
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 1169px;
+}
+
+.wrapper {
+    max-width: 93.313rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+/**********Main FAQ Content**********/
+.inner-wrapper {
+    max-width: 63.125em;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.inner-wrapper hr {
+    border-top: 1px solid #ccc;
+    margin: 1em 0 40px 0;
+    padding: 0;
+}
+
+.inner-wrapper h5 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: .05rem;
+    color: #000;
+}
+
+.inner-wrapper p {
+    position: relative;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    color: #6a6a6a;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.main-faq {
+    font-family: 'Lato', sans-serif;
+    font-size: 2.188rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000;
+}
+
+.head-faq h5 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    letter-spacing: .09rem;
+    color: #000;
+}
+
+.head-faq p > img {
+    position: relative;
+    margin-bottom: 20px;
+    border: none;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+/**********End Main FAQ Content**********/
+
+/**********Left FAQ Content**********/
+.col-half-left {
+    width: calc(50% - 25px);
+    float: left;
+    position: relative;
+}
+
+/**********End Left FAQ Content**********/
+
+/**********Right FAQ Content**********/
+.col-half-right {
+    width: calc(50% - 50px);
+    float: right;
+    position: relative;
+    top: -5px;
+}
+
+/**********End Right FAQ Content**********/
+
+/**********End Section FAQ**********/
+
+/**********************End Of Main Page**********************/
+
+
+
+
+
+
+
+
+
+/*****************Start Of Services Page*****************/
+
+/**********Section Services**********/
+#services {
+    width: 100%;
+    height: 250vh;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+.nav-services:after {
+    display: block;
+    background-color: #c90b0b;
+    height: 4px;
+    width: 100%;
+    content: ' ';
+}
+
+/**********Border**********/
+.border {
+    width: 5px;
+    height: 125px;
+    position: relative;
+    margin: 4px 0px 18px calc((100% - 980px) * 0.5);
+    left: 490px;
+}
+
+.center-border {
+    width: 100%;
+    height: 100%;
+    border-left: 3px solid rgba(142, 228, 181, 1);
+}
+
+/**********End Border**********/
+
+/**********Section Description**********/
+.top-header {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 130px;
+    position: relative;
+    left: 259px;
+}
+
+#top-header {
+    font-family: 'Candara';
+    color: #8EE4B5;
+    line-height: normal;
+}
+
+.what {
+    font-size: 70px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.do {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+/**********End Section Description**********/
+
+/**********Our Services**********/
+.our-services {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin-top: 100px;
+    margin-left: 60px;
+    align-content: center;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    width: calc(90% / 3 + 0px);
+    align-items: center;
+    text-align: center;
+}
+
+.services img {
+    width: 109px;
+    height: 109px;
+    object-fit: cover;
+}
+
+.name-service {
+    margin-top: 15px;
+}
+
+.name-service span {
+    font-family: 'Bebas Neue';
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #8ee4b5;
+}
+
+.services-points {
+    font-family: 'Open Sans';
+    list-style-type: disc;
+    width: 223px;
+    padding-left: 1.3em;
+    padding-right: 0;
+    margin-right: 0;
+    margin-top: 10px;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.first-section {
+    margin-top: 50px;
+}
+
+.second-section {
+    margin-top: 120px;
+}
+
+/**********End Our Services**********/
+
+/**********End Section Services**********/
+
+/*****************End Of Services Page*****************/
+
+
+
+
+
+
+
+
+
+/*****************Start Of About Page*****************/
+#about-page {
+    background: linear-gradient(rgba(90, 81, 4, 0.43), rgba(13, 19, 42, 0.5)), url("images/header-fashion.jpg") fixed center;
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+}
+
+/**********Brand**********/
+.brand {
+    display: block;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.brand i {
+    font-size: 130px;
+    color: #f6c2c2;
+    margin-left: 1.8em;
+}
+
+#brand-h3 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #f7f9fc;
+}
+
+.brand hr {
+    position: relative;
+    margin-top: 140px;
+    width: 80%;
+}
+
+/**********End Brand**********/
+
+
+
+
+/**********Section About**********/
+.description {
+    background: fixed, center, no-repeat, #ffffff;
+    background-size: cover;
+    display: block;
+    position: relative;
+    padding: 100px;
+}
+
+.description_block h3 {
+    font-family: "Candara";
+    font-weight: bolder;
+    color: #000000;
+    text-align: center;
+    text-shadow: 3px 5px 4px #6df3d4;
+}
+
+.description_block h5 {
+    line-height: 32px;
+    text-align: justify;
+}
+
+/**********Our History**********/
+.history_block {
+    display: block;
+    margin-top: 100px;
+    width: fit-content;
+}
+
+.history_image {
+    width: fit-content;
+    margin-left: 700px;
+}
+
+.history {
+    display: block;
+    width: 47%;
+    direction: ltr;
+    text-align: left !important;
+    position: relative;
+    top: -270px;
+    height: 170px;
+}
+
+/**********End Our History**********/
+
+/**********Our Market**********/
+.market_block {
+    display: block;
+    margin-top: 60px;
+    width: fit-content;
+}
+
+.market_image {
+    width: fit-content;
+    position: relative;
+    top: 50px;
+}
+
+.market {
+    display: block;
+    width: 48%;
+    direction: ltr;
+    text-align: left !important;
+    position: relative;
+    top: -300px;
+    margin-left: 570px;
+    height: 330px;
+}
+
+/**********End Our Market**********/
+
+/**********Our Products**********/
+.products_block {
+    display: block;
+    margin-top: -60px;
+    width: fit-content;
+}
+
+.products_image {
+    width: fit-content;
+    margin-left: 700px;
+}
+
+.products {
+    display: block;
+    width: 47%;
+    direction: ltr;
+    text-align: left !important;
+    position: relative;
+    top: -320px;
+    height: 200px;
+}
+
+/**********End Our Products**********/
+
+/**********Our Strategy**********/
+.strategy_block {
+    display: block;
+    margin-top: 20px;
+    width: fit-content;
+}
+
+.strategy_image {
+    width: fit-content;
+    position: relative;
+    top: 30px;
+}
+
+.strategy {
+    display: block;
+    width: 48%;
+    direction: ltr;
+    text-align: left !important;
+    position: relative;
+    top: -300px;
+    margin-left: 570px;
+}
+
+/**********End Our Strategy**********/
+
+/**********End Section About**********/
+
+
+
+
+/**********Section The Team**********/
+.team_background {
+    width: 100%;
+    height: 690px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(156, 106, 54, 0.7)), url("images/technology-background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 2.5px;
+}
+
+.team {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.owner {
+    margin-top: 20px;
+    margin-left: -25px;
+    letter-spacing: 1px;
+}
+
+.owner_img {
+    width: 210px;
+    height: 260px;
+    border: 3px solid #f8e988;
+    border-radius: 50%;
+    background-color: currentColor;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 100px;
+}
+
+.owner_img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.owner > h2,
+h3 {
+    font-family: 'Playfair Display SC';
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #f4ebeb;
+    text-shadow: 2px 2px 2px #0d0a84;
+}
+
+/**********End Section The Team**********/
+
+/*****************End Of About Page*****************/
+
+
+
+
+
+
+
+
+
+/*****************Start Of Contact Us Page*****************/
+#contactUs {
+    background: url("images/contact-background.jpg"), no-repeat, fixed;
+    background-size: cover;
+    width: 100%;
+    height: 185vh;
+    overflow: hidden;
+}
+
+/**********Contact Description**********/
+.contact-description {
+    display: block;
+    margin-top: 5em;
+}
+
+.contact-description-h3,
+.contact-description-h2 {
+    font-family: 'Playfair Display SC';
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #02022b;
+    text-shadow: 2px 2px 2px #0d0a84;
+}
+
+.contact-description p {
+    width: 80%;
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 26px;
+    text-align: justify;
+    margin-left: 110px;
+    margin-bottom: 40px;
+    color: #031f28;
+    text-shadow: 1px 1px 1px #8d9708;
+}
+
+/**********End Contact Description**********/
+
+/**********Contact Elements**********/
+.contact_us {
+    display: block;
+    margin-top: 7em;
+    padding: 45px;
+}
+
+/**********Contact IMAGE Elements**********/
+.contact-element-image {
+    width: 320px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+/**********End Contact IMAGE Elements**********/
+
+/**********Contact GROUP Elements**********/
+.contact-element-group {
+    width: 450px;
+    float: right;
+    margin-right: 40px;
+}
+
+.input {
+    width: 400px;
+    height: 48px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 40px;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}
+
+input[placeholder] {
+    background-color: #fcfcfa;
+}
+
+select:required:invalid {
+    color: rgb(198, 197, 197);
+    background-color: #fcfcfa;
+}
+
+option {
+    color: #000;
+}
+
+.multi-line-input {
+    width: 400px;
+    height: 100px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #000000;
+    background-color: #fcfcfa;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 16px;
+    line-height: 1;
+    padding: 12px 20px;
+    transition: border-color 200ms ease 0s, box-shadow 200ms ease 0s;
+}
+
+.form-button {
+    width: 400px;
+    height: 56px;
+    font-family: 'Candara';
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background: -webkit-linear-gradient(left, rgb(148, 115, 221) 0%, rgb(26, 201, 228) 100%);
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 1;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #cc4b37;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: rgb(243, 252, 166);
+    transition: 0.5s;
+}
+
+.form-button:active {
+    background-color: #cc4b37;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+/**********End Contact GROUP Elements**********/
+
+/**********End Contact Elements**********/
+
+/*****************End Of Contact Us Page*****************/
+
+
+
+
+
+
+
+
+
+/*****************Start Of Login Page*****************/
+#login {
+    width: 100%;
+    height: 93vh;
+    overflow: hidden;
+}
+
+.login-content {
+    display: flex;
+    background-size: cover;
+    align-items: center;
+}
+
+/**********Background Video**********/
+.video-background {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.header-overlay {
+    position: absolute;
+    width: 100%;
+    height: 93.6vh;
+    top: 62px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(rgb(35, 31, 1, 1), rgba(13, 19, 42, 1));
+    opacity: 0.77;
+}
+
+/**********End Background Video**********/
+
+/**********MAIN Content**********/
+.main_content {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 370px;
+}
+
+/**********Login Form**********/
+.login-form {
+    width: 750px;
+    height: 86vh;
+    background: #fff;
+    border-radius: 10px;
+    padding: 50px 55px 40px 55px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.1);
+    margin-left: -10em;
+}
+
+/**********Form Text**********/
+.login-form-title {
+    display: block;
+    font-family: 'Poppins';
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.2;
+    margin-top: -10px;
+    text-align: center;
+}
+
+/**********End Form Text**********/
+
+/**********Form Input**********/
+.form-input {
+    display: block;
+    margin-top: 40px;
+}
+
+label {
+    line-height: normal;
+}
+
+.form-col-left {
+    width: calc(50% - 40px);
+    float: left;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.form-col-right {
+    width: calc(50% - 40px);
+    float: right;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-name {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #555;
+    text-transform: capitalize;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-input {
+    font-family: Poppins-Regular, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #212529;
+    line-height: 1.5;
+    width: 100%;
+    height: 40px;
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0 7px;
+    margin: 0;
+    transition: all 0.4s ease;
+    box-shadow: none;
+    outline: none;
+}
+
+.login-input:invalid:focus {
+    color: #ff0000;
+}
+
+.radio-container {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #232222;
+    user-select: none;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+
+.radio-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.radio-container input:checked ~ .checkmark {
+    background-color: #e5e5e5;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.radio-container .checkmark:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #57b846;
+}
+
+.checkmark {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 21px;
+    width: 20px;
+    background-color: #e5e5e5;
+    border-radius: 50%;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/**********End Form Input**********/
+
+/**********Form Checkbox**********/
+.checkbox {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    user-select: none;
+}
+
+.checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkbox input:checked ~ .checkmark {
+    background-color: #e5e5e5;
+}
+
+.checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.checkbox .checkmark:after {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #57b846;
+}
+
+.accept {
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/**********End Form Checkbox**********/
+
+/**********Form Button**********/
+.container-form-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 13px;
+}
+
+.wrap-form-btn {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.form-bgbtn {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    background: #a64bf4;
+    background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #b721ff);
+    left: -100%;
+    transition: all 0.4s;
+}
+
+.form-btn {
+    font-family: Poppins-Medium;
+    font-size: 15px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
+
+.wrap-form-btn:hover .form-bgbtn {
+    left: 0;
+}
+
+/**********End Form Button**********/
+
+/**********End Login Form**********/
+
+/**********End MAIN Content**********/
+
+/*****************End Of Login Page*****************/
